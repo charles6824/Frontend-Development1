@@ -1,0 +1,32 @@
+body,div,h1,h2,p,ul,li,ol {
+                          padding:0px;
+                          margin:0px;
+}
+body { 
+      background:gold;
+}
+#header {
+        color:white;
+        background:pink;
+        font-size:24px;
+        margin:10px;
+}
+ li {
+                  display:inline;
+                  paddinfg: 10px ;
+                  color:white;
+}
+a { 
+   background:blue;
+   color:white;
+   text-decoration:none;
+   padding:10px;
+   margin:5px;
+   text-weight:bold;
+}
+#content{
+        margin:10px;
+}
+
+
+      

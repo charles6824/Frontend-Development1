@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<body>
+<script type="text/javascript">
+          function smile() {
+            var uid = document.myForm.Name.value;
+              var dele = /^[A-Za-z]+$/; 
+                if ( uid.match(dele)) {
+             return true;
+            }
+           else {
+        alert ("Your name no dey");
+       document.myForm.Name.focus();
+      return false;
+     }
+   }
+ </script>
+          <p> Na our form be this </p>
+                 <form action="ade.php" name="MyForm" onsubmit="return smile()">
+                       Name:<input type="text" name="Name">
+                             <input type="submit" name="submit">
+                 </form>
+          </body>
+</html>
